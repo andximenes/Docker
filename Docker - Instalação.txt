@@ -1,0 +1,7 @@
+Docker
+
+1 - Baixar o Docker
+2 - Utilizaremos o Docker por linha de comando
+3 - VsCode
+4 - Instalar extensão no VSCode
+
