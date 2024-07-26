@@ -5,3 +5,42 @@ Docker
 3 - VsCode
 4 - Instalar extensão no VSCode
 
+1.1 Podemos rodar uma imagem que não temos em nosso computador através do Docker
+	docker -it ubunto (acessa o terminal linux).
+	apt-get update (Atualizando o repositório de pacote da maquina linux).
+	apt-get instal vim (instalando o editor de código vim no terminal do linux).
+
+1.2 Repositório Docker Hub
+	https://hub.docker.com/search?q=node	
+
+1.3 - Comandos Docker
+	https://hub.docker.com/search?q=node
+	
+	docker pull <IMAGE NAME>             - Baixa uma imagem do repositório docker hub
+
+	docker run -it node                  -  Iniciar um container interativo	
+
+	docker run -it --rm <NAME CONTAINER> - Caso a imagem não esteja baixada, o comando baixa a imagem e inicia um container interativo 
+			      	               na linha de comando e o remove (remove do segundo plano) após o mesmo ser parado.
+
+	docker images                        - lista todas as imagens disponíveis no sistema 
+
+	docker ps                            - lista conatiners em execução
+
+	docker stop <CONTAINER ID>           - Para um container
+
+	docker rm                            - Remove um container.
+	docker rmi                           - Remove uma imagem.
+					
+	A diferença entre uma imagem docker e um container é que uma imagem é um pacote de software, enquanto um
+	container é uma instância em execução
+
+	docker start                         - É usado para iniciar um ou mais containers que foram previamente parados.
+
+	docker run --name <nome> <CONTAINER> - Colocando um nome específico no container.
+	
+	doker logs <CONTAINER>		     - Mostra os logs de um container.
+
+	
+
+sa
